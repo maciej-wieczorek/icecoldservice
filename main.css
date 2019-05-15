@@ -53,3 +53,17 @@ footer {
     top: 0 !important;
     width: 100% !important;
 }
+
+.row h1 {
+    color: #333;
+    margin: auto;
+}
+
+.row a {
+    color: #333;
+    text-decoration: none;
+}
+
+.row a:hover {
+    color: #e96656;
+}
