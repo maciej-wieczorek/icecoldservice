@@ -3,3 +3,25 @@
     top: 0 !important;
     width: 100%;
 }
+
+footer {
+    position: relative;
+    bottom: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer_text {
+    height: 128px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer img {
+    opacity: 0.5;
+}
+
+.footer img:hover {
+    opacity: 1;
+}
