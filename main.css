@@ -41,6 +41,10 @@ nav {
     background-color: white;
 }
 
+.content {
+    padding: 0 10%;
+}
+
 footer {
     position: relative;
     bottom: 0px;
