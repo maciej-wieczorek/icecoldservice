@@ -4,7 +4,7 @@ nav {
 
 .navbar {
     padding: 0 10%;
-    background-color: #90979c;
+    background-color: #333;
 }
 
 footer {
@@ -67,4 +67,13 @@ footer {
 
 .row a:hover {
     color: #e96656;
+}
+#logobg
+{
+    width: 300px;
+    background-image: linear-gradient(to right, #333, grey, #333);
+}
+.logo___
+{
+    margin: auto;
 }
