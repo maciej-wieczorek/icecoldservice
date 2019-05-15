@@ -2,6 +2,10 @@ nav {
     max-width: 1920px;
 }
 
+.navbar {
+    padding: 0 10%;
+}
+
 footer {
     position: relative;
     bottom: 3px;
