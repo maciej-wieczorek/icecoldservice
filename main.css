@@ -1,3 +1,8 @@
+html,body {
+    padding:0;
+    margin:0;
+ }
+
 nav {
     max-width: 1920px;
 }
@@ -12,11 +17,36 @@ nav {
     border: none;
 }
 
+.container-fluid {
+    position:relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:1000;
+    background-color: white;
+}
+
+#getoverit {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: -99; 
+}
+
+#first {
+    margin-top: 40%;
+}
+
+.row {
+    background-color: white;
+}
+
 footer {
     position: relative;
-    bottom: 3px;
+    bottom: 0px;
     width: 100%;
     text-align: center;
+    background-color: white;
 }
 
 .carousel img {
@@ -37,6 +67,10 @@ footer {
 
 .footer img:hover {
     opacity: 1;
+}
+
+.przerwa {
+    margin: 0;
 }
 
 ._resimage {
