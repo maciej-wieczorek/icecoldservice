@@ -28,7 +28,7 @@ nav {
 
 #getoverit {
     position:fixed;
-    top:0;
+    top: 80px;
     left:0;
     z-index: -99; 
 }
@@ -39,6 +39,10 @@ nav {
 
 .row {
     background-color: white;
+}
+
+.content {
+    padding: 0 10%;
 }
 
 footer {
