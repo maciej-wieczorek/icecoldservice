@@ -71,7 +71,7 @@ footer {
 #logobg
 {
     width: 250px;
-    background-image: linear-gradient(to right, #333, darkgrey, #333);
+    background-image: radial-gradient( darkgrey 10%, #333 70%);
 }
 .logo___
 {
