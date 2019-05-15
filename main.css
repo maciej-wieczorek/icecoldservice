@@ -1,5 +1,5 @@
-.carousel img {
-    height: 300px;
+nav {
+    max-width: 1920px;
 }
 
 .navbar {
@@ -11,6 +11,11 @@ footer {
     bottom: 3px;
     width: 100%;
     text-align: center;
+}
+
+.carousel img {
+    max-width: 1920px !important;
+    max-height: 720px !important;
 }
 
 .footer_text {
