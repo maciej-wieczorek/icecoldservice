@@ -44,11 +44,6 @@ footer {
     background-color: white;
 }
 
-.carousel img {
-    /*max-width: 1920px !important;
-    max-height: 720px !important;*/
-}
-
 .footer_text {
     height: 128px;
     display: flex;
