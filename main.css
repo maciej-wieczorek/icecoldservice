@@ -1,7 +1,7 @@
 html,body {
     padding:0;
     margin:0;
- }
+}
 
 nav {
     max-width: 1920px; 
@@ -32,22 +32,12 @@ nav {
     left:0;
     z-index: -99; 
 }
-
-.first {
-    margin-top: 20%;
-}
-
 .row {
     background-color: white;
 }
 
 .content {
     padding: 0 10%;
-}
-
-.nocontent {
-    height: 250px;
-    background-color: transparent;
 }
 
 footer {

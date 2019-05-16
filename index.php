@@ -12,7 +12,7 @@
     <!--Pierwszy musi byc-->
 </head>
 
-<body>
+<body onresize="space()" onload="space()">
     <header>
         <!--Zajebiste menu tutaj-->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
@@ -20,7 +20,7 @@
                 <a href="index.html" class="logo___"><img src="images/logo.png" class="logo__" width="160px"
                         alt="logo"></a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="space()">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -75,7 +75,7 @@
         </div>
 
         <!--Content-->
-        <div class="first row nocontent" id="chlodnictwo"> </div>
+        <div class="row nocontent" id="chlodnictwo"> </div>
         <div class="margintop">
             <div class="row content">
                 <h1>Usługi</h1>
@@ -185,6 +185,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="main.js"></script>
 </body>
 
 </html>
