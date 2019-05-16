@@ -17,7 +17,7 @@
         <!--Zajebiste menu tutaj-->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
             <div class="navbar-brand col-9 col-sm-6 col-md-5 col-lg-4 col-xl-3" id="logobg">
-                <a href="index.html" class="logo___">
+                <a href="index.php" class="logo___">
                     <img src="images/logo.png" class="logo__" width="160px" alt="logo">
                 </a>
             </div>
