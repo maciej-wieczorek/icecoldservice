@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
 
 <head>
@@ -129,12 +129,32 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quidem voluptates totam illo nulla! Aliquam at atque id minima nulla minus voluptates excepturi sequi molestias, ducimus illum voluptate corrupti eaque cupiditate aperiam ipsa eius, consequuntur, optio rem exercitationem iusto blanditiis nisi nesciunt ipsam. Nisi dignissimos officiis, eum, sint amet itaque perspiciatis harum, voluptates iure modi ipsa facilis laboriosam praesentium. Architecto vero corporis exercitationem iste non tenetur molestiae maiores sit placeat accusamus nostrum rem, ab ex enim quos officiis. Numquam soluta velit perferendis. Quisquam quod illo voluptates amet illum. Doloribus, dolor. Non repellendus incidunt itaque fuga illo quos, quia neque odit? Amet itaque placeat illo obcaecati non maiores fuga perferendis? Corrupti consectetur at ipsam quos. Maxime ipsam architecto voluptate quisquam neque consequuntur corrupti nesciunt perferendis tempore porro? Enim ullam soluta at tempore odit quibusdam pariatur aspernatur odio rem, non cumque, maxime natus fuga quidem veritatis vel mollitia facilis quos, asperiores sit saepe nisi! Nulla, cupiditate! Hic reiciendis dolor fuga quos voluptatibus. Perferendis, explicabo dolore perspiciatis ratione iusto placeat distinctio alias delectus quam sunt, suscipit eius dicta rerum quisquam, ea neque eligendi quibusdam. Expedita, nobis aspernatur culpa, delectus dolore eos eveniet molestias ducimus inventore ea laborum dolorum autem. Expedita dicta cupiditate laborum?
             <div class="row">
             <div class="col md">
-                <h4><a href="#">Skontaktuj się z nami!</a></h4><br>
-                <input name="contact-name" type="text" placeholder="Nazwa" required><br>
-                <input name="contact-email" type="email" placeholder="Adres e-mail" required><br>
-                <input name="contact-topic" type="text" placeholder="Temat" required><br>
-                <textarea name="contact-message" required placeholder="Treść wiadomości"></textarea><br>
-                <button name="contact-message-submit" type="submit">Wyślij!</button>
+                <form action="" method="post">
+                    <h4><a href="#">Skontaktuj się z nami!</a></h4><br>
+                    <input name="contact-name" type="text" placeholder="Nazwa" required><br>
+                    <input name="contact-email" type="email" placeholder="Adres e-mail" required><br>
+                    <input name="contact-topic" type="text" placeholder="Temat" required><br>
+                    <textarea name="contact-message" required placeholder="Treść wiadomości"></textarea><br>
+                    <button name="contact-message-submit" type="submit">Wyślij!</button><br>
+                    Nasz numer telefonu: 505 312 626
+                </form>
+                <?php 
+                    $name = $email = $topic = $message = "";
+
+                    if(isset($_POST['contact-message-submit'])){
+                        $to = "icecoldservice@o2.pl"; 
+                        $from = $_POST['contact-email']; 
+                        $name = $_POST['contact-name'];
+                        $topic = $_POST['contact-topic'];
+                        $message = $name . " napisał: " . "\n\n" . $_POST['contact-message'];
+
+                        $headers = "From:" . $from;
+                        $headers2 = "To:" . $to;
+                        mail($to,$topic,$message,$headers);
+                        mail($from,$topic,$message,$headers2); // sends a copy of the message to the sender
+                        echo "Wysłano wiadomość. Dziękujemy " . $name . ", niebawem się skontaktujemy.";
+                    }
+                ?>
             </div>
         </div>
         </div>
