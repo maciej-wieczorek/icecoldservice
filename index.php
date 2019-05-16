@@ -144,7 +144,7 @@
                     $name = $email = $topic = $message = "";
 
                     if(isset($_POST['contact-message-submit'])){
-                        $to = "icecoldservice@o2.pl"; 
+                        $to = "mikolajtechhnika@gmail.com"; 
                         $from = $_POST['contact-email']; 
                         $name = $_POST['contact-name'];
                         $topic = $_POST['contact-topic'];
