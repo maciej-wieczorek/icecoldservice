@@ -40,11 +40,6 @@ nav {
     padding: 0 10%;
 }
 
-.nocontent {
-    height: 250px;
-    background-color: transparent;
-}
-
 footer {
     position: relative;
     bottom: 0px;
