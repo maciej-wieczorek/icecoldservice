@@ -8,7 +8,6 @@ function space(){
     var h3 = h1 + h2;
     console.log(h1+", "+h2+", "+h3);
     var len = document.getElementsByClassName("margintop").length;
-    document.getElementsByClassName("margintop")[0].style.marginTop = h3+"px";
-    for(i = 1; i < len; i++)
-        document.getElementsByClassName("margintop")[i].style.marginTop = h1+"px";
+    for(i = 0; i < len; i++)
+        document.getElementsByClassName("margintop")[i].style.marginTop = h3+"px";
 }
