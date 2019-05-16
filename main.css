@@ -4,10 +4,7 @@ html,body {
 }
 
 nav {
-    max-width: 1920px;
-    -webkit-box-shadow: 5px 5px 7px 3px rgba(51,3,NaN,0.55);
-    -moz-box-shadow: 5px 5px 7px 3px rgba(51,3,NaN,0.55);
-    box-shadow: 5px 5px 7px 3px rgba(51,3,NaN,0.55); 
+    max-width: 1920px; 
 }
 
 .navbar {
@@ -44,6 +41,7 @@ nav {
 }
 
 .nocontent {
+    height: 250px;
     background-color: transparent;
 }
 
