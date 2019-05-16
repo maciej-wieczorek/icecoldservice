@@ -16,10 +16,12 @@
     <header>
         <!--Zajebiste menu tutaj-->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
-            <div class="navbar-brand" id="logobg">
-                <a href="index.html" class="logo___"><img src="images/logo.png" class="logo__" width="160px"
-                        alt="logo"></a></div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <div class="navbar-brand col-9 col-sm-6 col-md-5 col-lg-4 col-xl-3" id="logobg">
+                <a href="index.html" class="logo___">
+                    <img src="images/logo.png" class="logo__" width="160px" alt="logo">
+                </a>
+            </div>
+            <button class="navbar-toggler col-2" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
