@@ -172,7 +172,7 @@
             <div class="row" id="mapkarow">
                 <div class="col-md-3">
                     <form action="" method="post">
-                        <h4>Skontaktuj się z nami!</h4><br>
+                        <h4>Napisz do nas!</h4><br>
                         <input name="contact-name" type="text" placeholder="Nazwa" required><br>
                         <input name="contact-email" type="email" placeholder="Adres e-mail" required><br>
                         <input name="contact-topic" type="text" placeholder="Temat" required><br>
