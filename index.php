@@ -135,6 +135,7 @@
         </div>
         <div class="row content margintop">
             <h1>Wentylacja</h1>
+            <div class="bgcontent">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nam accusantium recusandae dignissimos
             corporis saepe voluptates maxime provident aperiam animi ut maiores accusamus, rem commodi dolorem porro
             optio fugit itaque quo ipsum similique? Enim corrupti architecto sapiente totam, repellat placeat sit rerum!
@@ -150,6 +151,7 @@
             Unde corrupti in quos tenetur voluptas, possimus eos voluptatem laudantium accusantium pariatur, rem beatae
             perspiciatis corporis minus accusamus cum voluptates expedita dolor animi ex vitae eaque nulla fugit
             nostrum? Quam quibusdam similique voluptas eius molestias?
+            </div>
             <div class="row nocontent" id="kontakt"> </div>
         </div>
         <div class="row content margintop">
