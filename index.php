@@ -90,7 +90,7 @@
             </div>
             <div class="row content">
                 <div>
-                    <h4><a href="#">Twoja usługa 2</a></h4>
+                    <h4>Twoja usługa 2</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ea ad at. Sed, nesciunt dolores.
                         Neque, eveniet, deleniti nostrum laboriosam voluptatem, deserunt rem blanditiis temporibus cum
                         repudiandae iure corporis numquam.</p>
@@ -98,7 +98,7 @@
             </div>
             <div class="row content">
                 <div>
-                    <h4><a href="#">Twoja usługa 3</a></h4>
+                    <h4>Twoja usługa 3</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ea ad at. Sed, nesciunt dolores.
                         Neque, eveniet, deleniti nostrum laboriosam voluptatem, deserunt rem blanditiis temporibus cum
                         repudiandae iure corporis numquam.</p>
