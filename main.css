@@ -122,6 +122,13 @@ footer {
 
 
 
+.footer_text > p {
+
+    margin-top: 8px !important;
+
+}
+
+
 .przerwa {
 
     margin: 0;
