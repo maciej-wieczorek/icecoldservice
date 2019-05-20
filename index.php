@@ -169,8 +169,8 @@
             distinctio alias delectus quam sunt, suscipit eius dicta rerum quisquam, ea neque eligendi quibusdam.
             Expedita, nobis aspernatur culpa, delectus dolore eos eveniet molestias ducimus inventore ea laborum dolorum
             autem. Expedita dicta cupiditate laborum?
-            <div class="row">
-                <div class="col md">
+            <div class="row" id="mapkarow">
+                <div class="col-md-5">
                     <form action="" method="post">
                         <h4>Skontaktuj się z nami!</h4><br>
                         <input name="contact-name" type="text" placeholder="Nazwa" required><br>
@@ -198,10 +198,11 @@
                         }
                     ?>
                 </div>
-                <div class="col md">
+                <div class="col-md" id="mapka">
                     <iframe
+                    width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2475.010017128735!2d19.3332782157756!3d51.6596529796605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a3633d87b4323%3A0x9c21a634a7e76569!2sMoniuszki+96%2C+95-200+Pabianice!5e0!3m2!1spl!2spl!4v1558007666969!5m2!1spl!2spl"
-                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                         style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
             <!--Stopka tutaj-->
