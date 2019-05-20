@@ -184,7 +184,7 @@ footer {
 
 .row a {
 
-    color: #e96656;
+    color: rgb(67, 102, 136);
 
     text-decoration: none;
 
@@ -192,7 +192,7 @@ footer {
 
 .row a:hover {
 
-    color: #fa7767;
+    color: rgb(204, 31, 37);
 
 }
 
