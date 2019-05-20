@@ -172,7 +172,7 @@
             <div class="row">
                 <div class="col md">
                     <form action="" method="post">
-                        <h4><a href="#">Skontaktuj się z nami!</a></h4><br>
+                        <h4>Skontaktuj się z nami!</h4><br>
                         <input name="contact-name" type="text" placeholder="Nazwa" required><br>
                         <input name="contact-email" type="email" placeholder="Adres e-mail" required><br>
                         <input name="contact-topic" type="text" placeholder="Temat" required><br>
