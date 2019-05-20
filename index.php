@@ -178,7 +178,7 @@
                         <input name="contact-topic" type="text" placeholder="Temat" required><br>
                         <textarea name="contact-message" required placeholder="Treść wiadomości"></textarea><br>
                         <button name="contact-message-submit" type="submit">Wyślij!</button><br>
-                        Nasz numer telefonu: 505 312 626
+                        Nasz numer telefonu: 505&nbsp;312&nbsp;626
                     </form>
                     <?php 
 	                    ini_set("SMTP", "smtp.icecoldservice.pl");
